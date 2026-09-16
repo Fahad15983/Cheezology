@@ -2,7 +2,7 @@
  * CHEEZOLOGY CAFE - Official Complete Application Logic & WhatsApp Order System
  */
 
-const OWNER_WHATSAPP = "923315915983";
+const OWNER_WHATSAPP = "923365119446";
 
 document.addEventListener("DOMContentLoaded", () => {
 
