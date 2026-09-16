@@ -967,6 +967,12 @@ document.addEventListener("DOMContentLoaded", () => {
       .cz-summary-actions { display: flex; gap: 10px; }
       .cz-summary-actions button { flex: 1; }
       .cz-empty-msg { text-align: center; color: #888; margin-top: 40px; }
+
+      @media (max-width: 480px) {
+        .cz-modal-card { box-sizing: border-box; }
+        .cz-summary-actions { flex-direction: column; }
+        .cz-summary-actions button { width: 100%; }
+      }
     `;
     document.head.appendChild(styleTag);
   }
